@@ -1,0 +1,12 @@
+{
+    "9ceebf7d-54a8-4ab8-995f-6e244118b335": {
+        "id": "9ceebf7d-54a8-4ab8-995f-6e244118b335",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1719767617.0165396
+    }
+}
