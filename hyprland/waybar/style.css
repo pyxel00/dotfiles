@@ -146,21 +146,22 @@ button:hover {
 
 #power-profiles-daemon {
     padding-right: 15px;
+    color:transparent;
 }
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
-    color: #ffffff;
+    background-color: transparent;
+    color: #f53c3c;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
+    background-color: transparent;
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: transparent;
+    color: #2ecc71;
 }
 
 label:focus {
@@ -181,7 +182,7 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: transparent;
 }
 
 #network {

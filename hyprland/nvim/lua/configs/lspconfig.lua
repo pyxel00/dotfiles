@@ -1,15 +1,11 @@
 -- EXAMPLE 
 local on_attach = require("nvchad.configs.lspconfig").on_attach
+
 local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
 local util = require "lspconfig/util"
-
-lspconfig.lua_ls.setup({
-  on_attach = on_attach,
-  capabilities = capabilities
-})
 
 lspconfig.jdtls.setup({
   on_attach = on_attach,
@@ -33,5 +29,6 @@ lspconfig.rust_analyzer.setup({
 
 lspconfig.clangd.setup({
   on_attach = on_attach,
-  capabilities = capabilities
+  capabilities = capabilities,
+  filetypes = { "c" },
 })

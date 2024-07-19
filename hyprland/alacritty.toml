@@ -1,3 +1,5 @@
+[scrolling]
+history = 500
 
 # Coloring and shit
 [colors.primary]
